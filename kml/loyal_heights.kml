@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+  <Style id="polygon_style">
+    <LineStyle>
+      <color>ff000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7FAAAAAA</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+
+  <Placemark>
+    <name>loyal_heights</name>
+    <styleUrl>#polygon_style</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -122.3768095244870,47.6905388491855,0.000000
+            -122.3766694530500,47.6759896300662,0.000000
+            -122.3930008034960,47.6759322346303,0.000000
+            -122.3930155506030,47.6759321828024,0.000000
+            -122.3930345961040,47.6905179669770,0.000000
+            -122.3875519751160,47.6905158630688,0.000000
+            -122.3768095244870,47.6905388491855,0.000000
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+
+  <Style id="polygon_style">
+    <LineStyle>
+      <color>ff000000</color>
+      <width>1</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7FAAAAAA</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+
+  <Placemark>
+    <name>whittier_heights</name>
+    <styleUrl>#polygon_style</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -122.3660402019040,47.6832533821718,0.000000
+            -122.3660788692150,47.6759641734893,0.000000
+            -122.3764863639430,47.6759891899753,0.000000
+            -122.3766694530500,47.6759896300662,0.000000
+            -122.3768095244870,47.6905388491836,0.000000
+            -122.3660695317090,47.6906649370600,0.000000
+            -122.3660402019040,47.6832533821718,0.000000
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
