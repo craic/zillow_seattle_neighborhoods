@@ -1,0 +1,79 @@
+admiral
+alki
+arbor heights
+atlantic
+ballard
+beacon hill
+belltown
+bitter lake
+blue ridge
+brighton
+broadmoor
+broadview
+bryant
+capitol hill
+cedar park
+central district
+columbia city
+crown hill
+denny-blaine
+downtown
+eastlake
+fauntleroy
+first hill
+fremont
+georgetown
+green lake
+greenwood
+haller lake
+hawthorne hills
+high point
+highland park
+industrial district
+interbay
+international district
+laurelhurst
+leschi
+lower queen anne
+loyal heights
+madison park
+madison valley
+madrona
+magnolia
+maple leaf
+matthews beach
+meadowbrook
+montlake
+mount baker
+north beach
+north college park
+north delridge
+northgate
+olympic hills
+olympic manor
+phinney ridge
+pinehurst
+pioneer square
+portage bay
+queen anne
+rainier beach
+ravenna
+riverview
+roosevelt
+roxhill
+sand point
+seward park
+south delridge
+south lake union
+south park
+sunset hill
+university district
+victory heights
+view ridge
+wallingford
+wedgwood
+west seattle
+westlake
+whittier heights
+windermere
+
