@@ -1,4 +1,4 @@
-# zillow seattle neighborhood maps
+# Zillow Neighborhood Maps of Seattle in GeoJSON and KML Formats
 
 The good people at [Zillow](http://www.zillow.com/) have invested a lot of time defining the boundaries of around 7,000 neighborhoods in cities around the USA.
 
