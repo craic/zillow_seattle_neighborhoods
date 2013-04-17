@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<title>Example Google Map with Zillow neighborhood overlay</title>
+
+<style>
+    body {
+        font-family: Helvetica, sans-serif;
+        font-size: 11pt;
+        padding: 5px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    h2 {
+        font-weight: normal;
+        font-size: 24pt;
+    }
+    .centered {
+        text-align: center;
+    }
+   #map_canvas {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 600px;
+    height: 400px;
+  }
+</style>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+
+<script>
+  var map;
+  function initialize() {
+
+    var myLatlng = new google.maps.LatLng( 47.6141164451838, -122.320607230067 );
+    var mapOptions = {
+      zoom: 14,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+    // add random number to this url - as with images - to avoid caching during development
+    var url_suffix = (new Date).getTime().toString();
+
+    // Note that the KML file MUST be served from a remote host - it will not appear otherwise
+    var testLayer = new google.maps.KmlLayer('http://html5-examples.craic.com/capitol_hill.kml' + '?' + url_suffix);
+    testLayer.setMap(map);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+<h2 class='centered'>Example map showing a neighborhood overlay</h2>
+<div id="map_canvas"></div>
+
+<p>&nbsp;<br/>&nbsp;</p>
+<p class='centered'><a href="http://www.zillow.com/howto/api/neighborhood-boundaries.htm"><img src="Zillow_Logo_HoodsProvided_RightAligned.gif" title="Zillow"></a></p>
+</body>
+</html>
+

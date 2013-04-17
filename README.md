@@ -20,6 +20,10 @@ The same approach could be applied to derive GeoJSON and KML files for the entir
 The KML format contains not only data but also styling information. This can be viewed as a benefit or disadvantage of the format. The KML files here all use the same styling information in the XML blocks at the top fo the file. Look for the strings 'ff000000' for the Line Style and '7FAAAAAA' for the fill style. It would be easy enough for you to modify these as needed. Check the KML documentation for guidance on KML styling.
 
 
+# Example Map
+
+See the file example.html for a basic example of a Google Map embedded in a page with a KML neighborhood overlay
+
 # Using the Files
 
 You can use either format of file in many GIS packages and mapping programs. Here are a few ideas for people who are new to this area of coding.
